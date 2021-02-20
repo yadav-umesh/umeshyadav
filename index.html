@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rohitash Profile</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./src/images/transparent-document-icon-case.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/scriptFunctions.js"></script>
+</head>
+
+<body onload="initialScriptLoad()">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-default nav-div">
+        <div class="container-fluid">
+            <div class="navbar-header nav-head">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" id="collapse-btn" onclick="openNav()" data-target="#collapse-nav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand head-name" id="name-head" href="./index.html"><img src="./src/images/profile.jpg" class="navbar-brand img-circle">Rohitash</a>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse-nav">
+                <!-- Big Display View -->
+                <div class="nav navbar-nav  nav-menu" id="large-disp">
+                    <div class="nav-items"><a href="./index.html"><span class="glyphicon glyphicon-home"></span> Home</a></div>
+                    <div class="nav-items"><a href="#about"><span class="glyphicon glyphicon-info-sign"></span> About</a></div>
+                    <div class="nav-items"><a href="#education"><span class="glyphicon glyphicon-education"></span> Education</a></div>
+                    <div class="nav-items"><a href="#skills"><span class="fa fa-bar-chart"></span> Skills</a></div>
+                    <!-- <div class="nav-items"><a href="#achivements"><span class="fa fa-trophy"> Achivements</span></a></div> -->
+                    <div class="nav-items"><a href="#interest"><span class="fa fa-pencil-square-o"></span> Interest</a></div>
+                    <div class="nav-items"><a href="#contact"><span class="fa fa-address-book-o"></span> Contact</a></div>
+                </div>
+                <!-- Small Display View -->
+                <div class="sidebar" id="small-disp" style="display: none;">
+                    <div class="nav-small-items"><a href="./index.html"><span class="glyphicon glyphicon-home"></span> Home</a></div>
+                    <div class="nav-small-items"><a href="#about"><span class="glyphicon glyphicon-info-sign"></span> About</a></div>
+                    <div class="nav-small-items"><a href="#education"><span class="glyphicon glyphicon-education"></span> Education</a></div>
+                    <div class="nav-small-items"><a href="#skills"><span class="fa fa-bar-chart"></span> Skills</a></div>
+                    <!-- <div class="nav-small-items"><a href="#achivements"><span class="fa fa-trophy"> Achivements</span></a></div> -->
+                    <div class="nav-small-items"><a href="#interest"><span class="fa fa-pencil-square-o"></span> Interest</a></div>
+                    <div class="nav-small-items"><a href="#contact"><span class="fa fa-address-book-o"></span> Contact</a></div>
+                </div>
+            </div>
+            <!-- <div class="collapse navbar-collapse" id="collapse-nav2">
+                
+            </div> -->
+        </div>
+    </nav>
+    <!-- Intro  Carouser -->
+    <div class="container cover-area">
+        <div class="row">
+            <div class="intro-div">
+                <p class="rohitash-text">I'm <b>Rohitash</b></p>
+                <p>Web Developer | Front End Developer</p>
+                <p>Computer Science and Engineering<br> 3<sup>rd </sup> Year Student <br>At<br>
+                    <a class="inst-link" href="https://www.nitandhra.ac.in" target="_blank"><b>National Institute of Technlogy, Andhra Pradesh</b></a>
+                </p>
+            </div>
+            <div id="myCarousel" class="carousel slide carousel-div" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner carousel-slider">
+                    <div class="item active">
+                        <img src="./src/images/cover1.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="./src/images/cover2.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="./src/images/cover3.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="./src/images/cover4.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="./src/images/cover5.jpg">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control carousel-control-btn" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control carousel-control-btn" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div class="container" id="about">
+        <div class="abt-details">
+            <div class="abt-text">
+                About
+                <div class="under-abt"></div>
+            </div>
+            <p style="text-align: justify;">
+                <h5><span class="fa fa-hand-o-right"> </span> Technical Member - <a class="dsc-info" title="Developer Student Club - University Based Community Group" href="https://dsc.community.dev/u/m9htkr/#/about" target="_blank"><b>DSC</b></a>.</h5>
+                <h5><span class="fa fa-hand-o-right"> </span> 3<sup>rd</sup> Year <b>Computer Science & Engineering</b> Student at <b>NIT Andhra Pradesh.</b></h5>
+            </p>
+        </div>
+    </div>
+    <!-- Education -->
+    <div class="container" id="education">
+        <div class="edu-text">
+            Education
+            <div class="under-edu"></div>
+        </div>
+        <div class="row edu-details">
+            <div class="col-md-4 college-data">
+                <h5 class="edu-institute"><a href="https://www.nitandhra.ac.in" target="_blank">National Institute of Technology, Andhra Pradesh</a></h5>
+                <p class="edu-degree"><b>B.Tech</b> - Computer Science and Engineering</p>
+                <p class="year-completion">Aug 2018 - May 2022</p>
+            </div>
+            <div class="col-md-4 hsc-data">
+                <h5 class="edu-institute"><a href="http://www.rajeduboard.rajasthan.gov.in/" target="_blank">Board of Secondary Education Rajasthan, Ajmer</a></h5>
+                <p class="edu-degree"><b>Higher Secondary School Certificate</b></p>
+                <p class="year-completion">2016</p>
+            </div>
+            <div class="col-md-4 ssc-data">
+                <h5 class="edu-institute"><a href="http://www.rajeduboard.rajasthan.gov.in/" target="_blank">Board of Secondary Education Rajasthan, Ajmer</a></h5>
+                <p class="edu-degree"><b>Secondary School Certificate</b></p>
+                <p class="year-completion">2014</p>
+            </div>
+        </div>
+    </div>
+    <!-- skills -->
+    <div class="container" id="skills">
+        <div class="skills-text">
+            Skills
+            <div class="under-skills"></div>
+        </div>
+        <div class="row">
+            <!-- Technical Skills -->
+            <div class="col-md-8">
+                <h5><b>Technical:</b></h5>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div>
+                            <div class="progress">
+                                <div id="html-skill" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="css-bootstrap-skill" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="javascript-skill" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="c-cpp-skill" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="py-skill" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div id="java-skiil" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="php-skill" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="mysql-skill" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="mongodb-skill" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="git-skill" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Operating Systems & Languages -->
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5><b>Operating System:</b></h5>
+                        <div class="progress">
+                            <div id="wos-skill" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="l-os-skill" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5><b>Languages:</b></h5>
+                        <div class="progress">
+                            <div id="hindi-lang" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                <b>Hindi</b>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="en-leng" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                <b>English</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+    </div>
+    <!-- Achivements -->
+    <!-- <div class="container">
+        <div class="achive-text">
+            Achivements
+        </div>
+        <div class="under-achive">
+
+        </div>
+    </div> -->
+    <!-- Interest -->
+    <div class="container" id="interest">
+        <div class="interest-text">
+            Area of Interest
+            <div class="under-interest"></div>
+        </div>
+        <div class="row interest">
+            <div class="col-md-4">
+                <ul>
+                    <li>
+                        <h5><b>Web Development</b></h5>
+                    </li>
+                    <li>
+                        <h5><b>Game Development</b></h5>
+                    </li>
+                    <li>
+                        <h5><b>Android Development</b></h5>
+                    </li>
+                    <li>
+                        <h5><b>Competitive Programming</b></h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>
+                        <h5><b>Data Science</b></h5>
+                    </li>
+                    <li>
+                        <h5><b>Deep Learning</b></h5>
+                    </li>
+                    <li>
+                        <h5><b>Cyber Security</b></h5>
+                    </li>
+                    <li>
+                        <h5><b>Ethical hacking</b></h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>
+                        <h5><b>Reading Books</b></h5>
+                    </li>
+                    <li>
+                        <h5><b>Playing Cricket & Badmenton</b></h5>
+                    </li>
+                    <li>
+                        <h5><b>Travelling & Gardening.</b></h5>
+                    </li>
+                    <li>
+                        <h5><b>Listening Soft Music</b></h5>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <footer id="footer" class="footer-1">
+        <div class="main-footer widgets-dark typo-light">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget subscribe no-box">
+                            <h4 class="widget-title">Thank You for Visiting<span></span></h4>
+                            <p>Hope You like This.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 id="contact" class="widget-title">Contact Me<span></span></h5>
+                            <div class="contact-details">
+                                <div>
+                                    <div class="address">
+                                        <span class="glyphicon glyphicon-map-marker"></span> Jaipur, Rajasthan
+                                    </div>
+                                </div>
+                                <div class="phone">
+                                    <a title="Via Call" href="tel:+919785787351" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span class="glyphicon glyphicon-earphone"></span></a>
+                                </div>
+                                <div class="email">
+                                    <a title="Via Mail" href="mailto:rohitashkmwt@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 class="widget-title"><b>Resume</b><span></span></h5>
+                            <p></p>
+                            <a class="btn btn-default btn-info" href="./src/rohitash_Resume.pdf" target="_blank"><span class="fa fa-download"></span> Download</a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 class="widget-title"><b>Social Links</b><span></span></h5>
+                            <div class="social-footer2">
+                                <p>Feel free to reach out to me.</p><br>
+                                <div class="linkedin-profile">
+                                    <a title="LinkedIn" target="_blank" href="https://linkedin.com/in/itsRkator"><span class="fa fa-linkedin-square"></span></a>
+                                </div>
+                                <div class="github-profile">
+                                    <a title="GitHub" target="_blank" href="https://github.com/itsRkator"><span class="fa fa-github"></span></a>
+                                </div>
+                                <div class="twitter-profile">
+                                    <a href="https://twitter.com/itsrkator" target="_blank" title="Twitter"><span class="fa fa-twitter"></span></a>
+                                </div>
+                                <div class="facebook-profile">
+                                    <a href="https://www.facebook.com/itsRkator" target="_blank" title="Facebook"><span class="fa fa-facebook"></span></a>
+                                </div>
+                                <div class="instagram-profile">
+                                    <a title="Instagram" target="_blank" href="https://www.instagram.com/itsrkator"><span class="fa fa-instagram"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>Rohitash's Portfolio &copy; 2021. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
