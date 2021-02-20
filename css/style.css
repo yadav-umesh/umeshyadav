@@ -1,0 +1,560 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav-div {
+    margin-bottom: 13px !important;
+    min-width: 335px;
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+body {
+    background-color: #f9f9f9 !important;
+    padding: 0px;
+}
+
+.nav-head img {
+    margin-top: -15px;
+    padding: 5px;
+    display: -webkit-inline-box;
+}
+
+.nav-menu {
+    margin-left: 0% !important;
+    margin-right: auto;
+    text-align: center;
+    display: -webkit-inline-box;
+}
+
+#collapse-nav {
+    border: none !important;
+}
+
+@media screen and (max-width: 480px) {
+    .nav-menu {
+        float: left;
+        display: block;
+    }
+    .carousel-div {
+        max-width: 450px !important;
+        min-width: 320px !important;
+        overflow: hidden;
+        padding: 0% !important;
+    }
+    .carousel-slider {
+        max-width: 450px !important;
+        min-width: 320px !important;
+        border: 1px solid black;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+    }
+    .intro-div {
+        min-width: 320px;
+        font-size: 10px;
+        top: 0px;
+        color: rgb(0, 0, 0);
+        padding: 5px !important;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        background-color: rgba(238, 238, 238, 0.158);
+    }
+}
+
+.sidebar {
+    margin-top: 53px;
+    display: block;
+    height: 96.25% !important;
+    width: 100px !important;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 16px;
+    transition: 0.5s;
+}
+
+.sidebar div a {
+    font-size: 10px;
+    color: #252525;
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sidebar div:hover {
+    font-size: normal;
+    background-color: rgb(45, 54, 54) !important;
+    text-align: left !important;
+    padding: 0px 0px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.sidebar div a:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.sidebar div a:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.sidebar div a:active {
+    text-decoration: none;
+    color: rgb(0, 16, 88);
+}
+
+.sidebar div a:hover {
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(45, 54, 54);
+}
+
+@media screen and (min-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+.head-name {
+    font-size: 16px !important;
+    font-weight: 900;
+}
+
+.head-name:hover {
+    text-decoration: none;
+    border-radius: 10px !important;
+    background-color: rgb(45, 54, 54) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-items a {
+    color: #252525;
+    display: block;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+.nav-items a:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.nav-items a:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.nav-items a:active {
+    text-decoration: none;
+    color: rgb(0, 16, 88);
+}
+
+.nav-items a:hover {
+    display: block;
+    text-align: center;
+    padding: 14px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(45, 54, 54);
+    border-radius: 10px;
+}
+
+.cover-area {
+    margin-top: -10px;
+    margin-bottom: 40px;
+    padding: .0.1%;
+}
+
+.inst-link {
+    color: rgba(0, 0, 0, 0.705);
+    text-decoration: none !important;
+}
+
+.rohitash-text {
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.intro-div {
+    top: 0px;
+    color: rgb(0, 0, 0);
+    padding: 15px !important;
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.158);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.carousel-div {
+    overflow: hidden;
+    padding: 0% !important;
+}
+
+.carousel-slider {
+    border: 1px solid black;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.carousel-control-btn {
+    margin: 0px;
+    width: 5%;
+    background: transparent !important;
+}
+
+.indicators {
+    bottom: 0px !important;
+}
+
+.carousel-indicators .active {
+    width: 10px !important;
+    margin: 1px !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.carousel-indicators li {
+    height: 5px !important;
+    border: 1px solid #fff !important;
+}
+
+.progress-bar-info {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(68, 68, 68) !important;
+}
+
+.abt-text,
+.skills-text,
+.interest-text,
+.achive-text,
+.edu-text {
+    width: auto;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Glyphicons Halflings';
+    text-align: center;
+}
+
+.dsc-info {
+    font-weight: 900 !important;
+    font-family: 'Glyphicons Halfings';
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.dsc-info:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.skills-details {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.under-skills,
+.under-interest,
+.under-achive,
+.under-edu,
+.under-abt {
+    height: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(17, 1, 1);
+}
+
+.edu-details {
+    width: 100%;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.edu-details div {
+    max-height: 150px;
+    min-height: 10px;
+}
+
+.edu-institute a {
+    text-decoration: none;
+    color: rgba(12, 24, 66, 0.527);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder !important;
+}
+
+.edu-institute a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(12, 24, 66, 0.753);
+    font-weight: bolder !important;
+}
+
+.edu-degree {
+    font-family: inherit !important;
+    color: darkgray !important;
+}
+
+.year-completion {
+    font-family: monospace;
+    font-size: revert;
+    font-weight: 900;
+}
+
+.interest {
+    font-weight: 40px;
+}
+
+.footer-1 {
+    padding: 1px;
+}
+
+footer .main-footer {
+    padding: 20px 0;
+    background: #252525;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-copyright {
+    background: #222;
+    padding: 5px 0;
+}
+
+.footer-copyright .logo {
+    display: inherit;
+}
+
+.footer-copyright nav {
+    float: right;
+    margin-top: 5px;
+}
+
+.footer-copyright nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-copyright nav ul li {
+    border-left: 1px solid #505050;
+    display: inline-block;
+    line-height: 12px;
+    margin: 0;
+    padding: 0 8px;
+}
+
+.footer-copyright nav ul li a {
+    color: #969696;
+}
+
+.footer-copyright nav ul li:first-child {
+    border: medium none;
+    padding-left: 0;
+}
+
+.footer-copyright p {
+    color: #969696;
+    margin: 2px 0 0;
+}
+
+.footer-top {
+    background: #252525;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #222;
+}
+
+footer.transparent .footer-top,
+footer.transparent .main-footer {
+    background: transparent;
+}
+
+footer.transparent .footer-copyright {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+}
+
+footer.light .footer-top {
+    background: #f9f9f9;
+}
+
+footer.light .main-footer {
+    background: #f9f9f9;
+}
+
+footer.light .footer-copyright {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+}
+
+.footer- .logo {
+    display: inline-block;
+}
+
+.widget {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.widget.widget-last {
+    margin-bottom: 0px;
+}
+
+.widget.no-box {
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 40px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+}
+
+.widget.subscribe p {
+    margin-bottom: 18px;
+}
+
+.widget li a {
+    color: #ff8d1e;
+}
+
+.widget li a:hover {
+    color: #4b92dc;
+}
+
+.widget-title {
+    margin-bottom: 20px;
+}
+
+.widget-title span {
+    background: #839FAD none repeat scroll 0 0;
+    display: block;
+    height: 1px;
+    margin-top: 25px;
+    position: relative;
+    width: 20%;
+}
+
+.widget-title span::after {
+    background: inherit;
+    content: "";
+    height: inherit;
+    position: absolute;
+    top: -4px;
+    width: 50%;
+}
+
+.widget-title.text-center span,
+.widget-title.text-center span::after {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.widget .badge {
+    float: right;
+    background: #7f7f7f;
+}
+
+.typo-light h1,
+.typo-light h2,
+.typo-light h3,
+.typo-light h4,
+.typo-light h5,
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small {
+    color: #fff;
+}
+
+.social-footer2 {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.linkedin-profile,
+.github-profile,
+.twitter-profile,
+.facebook-profile,
+.instagram-profile {
+    display: inline-block;
+    padding: 0;
+}
+
+.linkedin-profile a:hover,
+.github-profile a:hover,
+.twitter-profile a:hover,
+.facebook-profile a:hover,
+.instagram-profile a:hover,
+.email a:hover,
+.phone a:hover {
+    background-color: #706f6f;
+}
+
+.linkedin-profile a,
+.github-profile a,
+.twitter-profile a,
+.facebook-profile a,
+.instagram-profile a {
+    display: block;
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-details {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.address,
+.email,
+.phone {
+    margin: 5px;
+    display: inline-block;
+}
+
+.email a,
+.phone a {
+    display: block;
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+    text-align: center;
+}
